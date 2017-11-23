@@ -1,0 +1,22 @@
+---
+version: '2'
+services:
+  nomp:
+    depends_on:
+      - redis
+    links:
+      - redis
+    image: 139690869284.dkr.ecr.ap-northeast-1.amazonaws.com/nomp:latest
+    ports:
+      - "80:80"
+      - "3032:3032"
+    cpu_shares: 1024
+    mem_limit: 536870912
+    mem_reservation: 536870912
+  redis:
+    image: redis:alpine
+    ports:
+      - "6379:6379"
+    cpu_shares: 1024
+    mem_limit: 3416129088
+    mem_reservation: 3416129088
