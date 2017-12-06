@@ -2,7 +2,7 @@
     "enabled": true,
     "coin": "litecoin.json",
 
-    "address": "LhabV8A24sJLhX13zgAs8wjiLv8ekkDJgZ",
+    "address": "n2bzHn2HB9iXj6Z8cErt4mubBHmA3kQqvX",
 
     "rewardRecipients": {
         "n37vuNFkXfk15uFnGoVyHZ6PYQxppD3QqK": 0,
@@ -14,8 +14,8 @@
         "paymentInterval": 20,
         "minimumPayment": 70,
         "daemon": {
-            "host": "52.192.80.140",
-            "port": 9332,
+            "host": "52.198.108.194",
+            "port": 19332,
             "user": "user",
             "password": "JgMchk9GTtGPqVYdTG2bpHMJ"
         }
@@ -42,14 +42,8 @@
 
     "daemons": [
         {
-            "host": "52.192.80.140",
-            "port": 9332,
-            "user": "user",
-            "password": "JgMchk9GTtGPqVYdTG2bpHMJ"
-        },
-        {
-            "host": "52.193.18.192",
-            "port": 9332,
+            "host": "13.230.47.30",
+            "port": 19332,
             "user": "user",
             "password": "JgMchk9GTtGPqVYdTG2bpHMJ"
         }
